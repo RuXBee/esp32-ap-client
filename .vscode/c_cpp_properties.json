@@ -10,6 +10,8 @@
             "includePath": [
                 "/home/ruben/repos/ru/esp32-ap-client/include",
                 "/home/ruben/repos/ru/esp32-ap-client/src",
+                "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
+                "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                 "/home/ruben/repos/ru/esp32-ap-client/.pio/libdeps/esp32dev/ArduinoJson/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
@@ -86,7 +88,6 @@
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
-                "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
@@ -95,7 +96,6 @@
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
-                "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
@@ -104,6 +104,7 @@
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "/home/ruben/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
@@ -111,6 +112,8 @@
                 "path": [
                     "/home/ruben/repos/ru/esp32-ap-client/include",
                     "/home/ruben/repos/ru/esp32-ap-client/src",
+                    "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
+                    "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                     "/home/ruben/repos/ru/esp32-ap-client/.pio/libdeps/esp32dev/ArduinoJson/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
@@ -187,7 +190,6 @@
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
-                    "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
@@ -196,7 +198,6 @@
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
-                    "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
@@ -205,11 +206,12 @@
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     "/home/ruben/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                    "/home/ruben/.platformio/packages/tool-unity",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=50204",
+                "PLATFORMIO=50205",
                 "ARDUINO_ESP32_DEV",
                 "ESP32",
                 "ESP_PLATFORM",
